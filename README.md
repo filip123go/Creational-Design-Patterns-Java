@@ -4,4 +4,8 @@ This is a reference project to Creational Design Patterns.  The patterns will be
 
 
 Patterns added :
+
 Singleton design pattern
+  - Returns same instance
+  - One constructor method - no args
+  - Typically No Interface
