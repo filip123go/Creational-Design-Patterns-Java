@@ -9,3 +9,9 @@ Singleton design pattern
   - Returns same instance
   - One constructor method - no args
   - Typically No Interface
+  
+Builder design pattern
+  - Handles complex constructors
+  - No interface required
+  - Can be a separate class
+  - Works with legacy code
