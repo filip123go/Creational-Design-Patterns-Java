@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1ad54e3-9554-4dfb-adf2-ec3ca671b98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stavros/builder/LunchOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stavros/builder/LunchOrderTeleDemo.java" afterDir="false" />
+    <list default="true" id="c1ad54e3-9554-4dfb-adf2-ec3ca671b98c" name="Default Changelist" comment="Prototype Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stavros/prototype/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stavros/prototype/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stavros/prototype/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stavros/prototype/PrototypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stavros/prototype/Registry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stavros/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stavros/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stavros/builder/LunchOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stavros/builder/LunchOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +40,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_ANALYSIS_RESULTS_SPLIT_PROPORTION" value="0.33333334" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LunchOrderTeleDemo">
+  <component name="RunManager" selected="Application.PrototypeDemo">
     <configuration name="DbSingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.stavros.singleton.DbSingletonDemo" />
       <module name="CreationalPatterns" />
@@ -88,13 +99,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrototypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stavros.prototype.PrototypeDemo" />
+      <module name="CreationalPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stavros.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.DbSingletonDemo" />
       <item itemvalue="Application.LunchOrderTeleDemo" />
+      <item itemvalue="Application.PrototypeDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrototypeDemo" />
         <item itemvalue="Application.LunchOrderTeleDemo" />
         <item itemvalue="Application.DbSingletonDemo" />
       </list>
@@ -112,8 +138,18 @@
       <updated>1570021459642</updated>
       <workItem from="1570021464196" duration="3963000" />
       <workItem from="1570092086020" duration="2685000" />
-      <workItem from="1570095328305" duration="3962000" />
+      <workItem from="1570095328305" duration="8943000" />
+      <workItem from="1570178963622" duration="2155000" />
+      <workItem from="1570181158821" duration="4995000" />
     </task>
+    <task id="LOCAL-00001" summary="Builder Design Pattern">
+      <created>1570103704871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570103704871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +167,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Builder Design Pattern" />
+    <MESSAGE value="Prototype Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype Pattern" />
   </component>
 </project>

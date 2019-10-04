@@ -31,7 +31,7 @@ public class LunchOrder {
 		}
 
 		public Builder meat(String meat) {
-			this.meat = bread;
+			this.meat = meat;
 			return this; // return the Builder obj
 		}
 	}

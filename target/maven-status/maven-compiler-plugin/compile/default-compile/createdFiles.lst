@@ -1,0 +1,8 @@
+com\stavros\builder\LunchOrder$1.class
+com\stavros\Main.class
+com\stavros\builder\LunchOrder$Builder.class
+com\stavros\prototype\Record.class
+com\stavros\builder\LunchOrder.class
+com\stavros\singleton\DbSingleton.class
+com\stavros\builder\LunchOrderTeleDemo.class
+com\stavros\singleton\DbSingletonDemo.class
