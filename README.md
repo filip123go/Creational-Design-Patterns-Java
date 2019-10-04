@@ -15,3 +15,9 @@ Builder design pattern
   - No interface required
   - Can be a separate class
   - Works with legacy code
+  
+Prototype design pattern
+  - Lighter weight construction
+  - Copy Constructor or Clone
+  - Shallow or Deep
+  - Copy of itself
