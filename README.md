@@ -20,4 +20,12 @@ Prototype design pattern
   - Lighter weight construction
   - Copy Constructor or Clone
   - Shallow or Deep
-  - Copy of itself
+  - Copy of itself 
+  
+Factory design pattern
+  - Returns various instances
+  - Multiple constructors
+  - Interface driven
+  - Subclasses
+  - Adaptable to environment more
+easily
