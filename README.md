@@ -1,7 +1,6 @@
 # Creational-Design-Patterns-Java
 
-This is a reference project to Creational Design Patterns.  The patterns will be added gradually.
-
+This is a reference project to Creational Design Patterns.
 
 Patterns added :
 
@@ -27,5 +26,4 @@ Factory design pattern
   - Multiple constructors
   - Interface driven
   - Subclasses
-  - Adaptable to environment more
-easily
+  - Adaptable to environment more easily
